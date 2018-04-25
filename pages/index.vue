@@ -2,7 +2,7 @@
   <section class="container">
     <div>
       <div class="dist">
-        <img src="~assets/images/location.png" alt="">
+        <!-- <img src="~assets/images/location.png" alt=""> -->
       </div>
       <ul>
         <li><nuxt-link :to="{name: 'index'}">Home</nuxt-link></li>
@@ -30,5 +30,10 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.dist {
+  width: 100%;
+  height: 300px;
+  background-image: url('~assets/images/location.png');
 }
 </style>
