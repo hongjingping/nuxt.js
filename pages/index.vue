@@ -1,6 +1,9 @@
 <template>
   <section class="container">
     <div>
+      <div class="dist">
+        <img src="~assets/images/location.png" alt="">
+      </div>
       <ul>
         <li><nuxt-link :to="{name: 'index'}">Home</nuxt-link></li>
         <li><nuxt-link :to="{name: 'about'}">About</nuxt-link></li>
