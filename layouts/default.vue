@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p>wikiHong</p>
     <nuxt/>
   </div>
 </template>
