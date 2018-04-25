@@ -4,7 +4,7 @@
     <p>newsId:{{$route.params.newsId}}</p>
     <ul>
       <li><nuxt-link :to="{name: 'news'}">News</nuxt-link></li>
-      <li><nuxt-link :to="{name: 'news-id', params: {id: 123}}">News-1</nuxt-link></li>
+      <li><nuxt-link :to="{name: 'news-id', params: {id: 123, title: 'I am wikiHong'}}">News-1</nuxt-link></li>
       <li><nuxt-link :to="{name: 'news-id', params: {id: 456}}">News-2</nuxt-link></li>
     </ul>
   </div>
